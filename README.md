@@ -17,8 +17,6 @@ If you like this project, consider supporting me:
 <a href="https://www.buymeacoffee.com/slayer47" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 [![PayPal](https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg)](https://paypal.me/zakriamansoor)
 
-
-
 ## Description
 SLAYER_WeaponZoom is a plugin for CS2 that allows players to zoom in with their weapons by holding down the secondary attack button (right-click) without needing to use the weapon's built-in scope functionality. The plugin provides customizable zoom levels for different weapon types, including pistols, rifles, and sniper rifles, allowing players to have more control over their aiming and accuracy while using various weapons in the game. It also includes features such as configurable zoom FOV values, support for different weapon types, and options to enable or disable zoom functionality for specific weapons or player groups. Administrators can also restrict zoom functionality to certain player groups using admin flags, providing flexibility in how the plugin is used on different servers.
 
@@ -84,6 +82,12 @@ The plugin can be configured by editing the `SLAYER_WeaponZoom.jsonc` file. Belo
   }
 }
 ```
+
+## 🎥 SLAYER Weapon Zoom Demo
+
+[![Weapon Zoom Plugin](https://img.youtube.com/vi/o32yJXNHpvU/maxresdefault.jpg)](https://www.youtube.com/watch?v=o32yJXNHpvU)
+
+Demonstration of the **SLAYER Weapon Zoom plugin for CS2** showing smooth zoom, pistol zoom, and scope weapon behavior.
 
 ## Author
 - [SLAYER](https://github.com/zakriamansoor47/)
