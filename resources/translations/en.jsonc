@@ -1,0 +1,5 @@
+{
+    "Chat.Prefix": "[gold][[darkred]★ [green]SLAYER WeaponZoom [darkred]★[gold]]",
+    "Chat.ToggleMessage": "[gold]Weapon zoom: [lime]{0}",
+    "Chat.NoPermission": "[red]You do not have permission to use this command."
+}
