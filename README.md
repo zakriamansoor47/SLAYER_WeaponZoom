@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://pan.samyyc.dev/s/VYmMXE" />
   <h2><strong>SLAYER_WeaponZoom</strong></h2>
-  <h3>SLAYER_WeaponZoom</h3>
 </div>
 
 <p align="center">
@@ -39,18 +38,52 @@ SLAYER_WeaponZoom is a plugin for CS2 that allows players to zoom in with their 
 
 ## Configuration
 The plugin can be configured by editing the `SLAYER_WeaponZoom.jsonc` file. Below are the available configuration options:
-- `WZ_SmoothZoom`: (bool) Enable or disable smooth zooming effect. Default is `true`.
-- `WZ_ZoomRate`: (int) Adjust how quickly the zoom effect is applied. Higher values will make the zoom effect faster. Default is `3`.
-- `WZ_ZoomButton`: (string) The button used to activate zoom (default is "Mouse2" for right-click).
-- `WZ_AdminFlagToUse`: (string) Admin flag(s) to use, separate with commas (,) for multiple flags, leave empty to allow all players to use zoom by default.
-- `WZ_WeaponsZoom`: (dictionary) A dictionary where the key is the weapon class name and the value is the FOV to use when zooming with that weapon. Example:
-  ```json
+
+```jsonc
+{
+  "WZ_ZoomEnabledByDefault": false, // Set to true to enable zoom for all players by default, false to disable by default and only allow players with specific admin flags to use zoom
+  "WZ_SmoothZoom": true, // Enable or disable smooth zooming effect
+  "WZ_ZoomRate": 3, // Adjust how quickly the zoom effect is applied. Higher values will make the zoom effect faster
+  "WZ_ZoomButton": "Mouse2", // The button used to activate zoom (default is "Mouse2" for right-click)
+  "WZ_AdminFlagToUse": "", // Admin flag(s) to use, separate with commas (,) for multiple flags, leave empty to allow all players to use zoom by default
+  "WZ_WeaponsZoom":  // A dictionary where the key is the weapon class name and the value is the FOV to use when zooming with that weapon
   {
-    "weapon_ak47": 15,
-    "weapon_m4a1": 12,
-    "weapon_awp": 10
+    "weapon_awp": 10,
+    "weapon_g3sg1": 10,
+    "weapon_scar20": 10,
+    "weapon_scout": 15,
+    "weapon_ak47": 60,
+    "weapon_famas": 60,
+    "weapon_galilar": 60,
+    "weapon_m4a1": 60,
+    "weapon_m4a1_silencer": 60,
+    "weapon_bizon": 60,
+    "weapon_mp7": 60,
+    "weapon_mp9": 60,
+    "weapon_mac10": 60,
+    "weapon_mp5sd": 60,
+    "weapon_p90": 60,
+    "weapon_ump45": 60,
+    "weapon_nova": 60,
+    "weapon_xm1014": 60,
+    "weapon_sawedoff": 60,
+    "weapon_mag7": 90,
+    "weapon_m249": 100,
+    "weapon_negev": 100,
+    "weapon_deagle": 70,
+    "weapon_elite": 70,
+    "weapon_fiveseven": 70,
+    "weapon_glock": 70,
+    "weapon_p250": 70,
+    "weapon_tec9": 70,
+    "weapon_usp_silencer": 70,
+    "weapon_hkp2000": 70,
+    "weapon_cz75a": 70,
+    "weapon_revolver": 70,
+    "weapon_taser": 70
   }
-  ```
+}
+```
 
 ## Author
 - SLAYER
