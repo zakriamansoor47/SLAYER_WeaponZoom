@@ -5,9 +5,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
-  <img src="https://img.shields.io/github/downloads/SLAYER/SLAYER_WeaponZoom/total" alt="Downloads">
-  <img src="https://img.shields.io/github/stars/SLAYER/SLAYER_WeaponZoom?style=flat&logo=github" alt="Stars">
-  <img src="https://img.shields.io/github/license/SLAYER/SLAYER_WeaponZoom" alt="License">
+  <img src="https://img.shields.io/github/downloads/zakriamansoor47/SLAYER_WeaponZoom/total" alt="Downloads">
+  <img src="https://img.shields.io/github/stars/zakriamansoor47/SLAYER_WeaponZoom?style=flat&logo=github" alt="Stars">
+  <img src="https://img.shields.io/github/license/zakriamansoor47/SLAYER_WeaponZoom" alt="License">
 </p>
 
 # Accepting Paid Request! Discord: Slayer47#7002
@@ -31,7 +31,7 @@ SLAYER_WeaponZoom is a plugin for CS2 that allows players to zoom in with their 
 - Admin flag support to restrict zoom functionality to certain player groups.
 
 ## Installation
-1. Download the latest release of SLAYER_WeaponZoom from the [Releases](https://github.com/SLAYER/SLAYER_WeaponZoom/releases) page.
+1. Download the latest release of SLAYER_WeaponZoom from the [Releases](https://github.com/zakriamansoor47/SLAYER_WeaponZoom/releases) page.
 2. Extract the downloaded archive to the `plugins` directory of your CS2 server.
 3. Restart your CS2 server to load the plugin.
 4. Configure the plugin settings by editing the `SLAYER_WeaponZoom.jsonc` file located in the `configs/plugins/SLAYER_WeaponZoom` directory.
@@ -86,4 +86,4 @@ The plugin can be configured by editing the `SLAYER_WeaponZoom.jsonc` file. Belo
 ```
 
 ## Author
-- SLAYER
+- [SLAYER](https://github.com/zakriamansoor47/)
